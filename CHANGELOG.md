@@ -1,5 +1,8 @@
 # Changelog
 
+## Beta 0.11.3
+- Ora open source su Github!
+
 ## Beta 0.11.2
 - Sistemato un po' lo schermo delle vittime e corpi recuperati (era ancora in debug con 1 / 2 / 3 vittime / vittimee ecc, da finire)
 - Sistemate alcune texture problematiche (MORTO e il LOGO)
