@@ -1,5 +1,9 @@
 # Changelog
 
+## Beta 0.11.4
+- Sistemata struttura cartelle
+- Spostata cartella texture fuori da `\config`
+
 ## Beta 0.11.3
 - Ora open source su Github!
 
