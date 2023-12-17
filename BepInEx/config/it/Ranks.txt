@@ -1,6 +1,0 @@
-Boss=Capo
-Leader=Superiore
-Employee=Impiegato
-Part-timer=Part-time
-Intern=Tirocinante
-EMPLOYEE RANK=RANGO IMPIEGATO

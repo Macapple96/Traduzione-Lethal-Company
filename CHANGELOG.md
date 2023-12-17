@@ -1,5 +1,13 @@
 # Changelog
 
+## Beta 0.11.5
+- Spostata traduzione fuori da `\config` verso `\plugins` per fare ordine
+	- Consiglio caldamente di cancellare la cartella `\config\it` per fare evitare file doppi e tenere i mod manager puliti
+- Aggiunti un paio di termini mancanti
+	- Canne mozze, tempi di ricarica del teletrasportatore, trasmissioni del signal translator
+- Sistemate le texture (NESSUN SOPRAVVISSUTO) per usare lo stesso rosso delle altre
+- Aggiunta texture ICONA manuale
+
 ## Beta 0.11.4
 - Sistemata struttura cartelle
 - Spostata cartella texture fuori da `\config`

@@ -1,0 +1,46 @@
+﻿
+r:"([\s\S]+) joined the ship."=$1 si è unito all'equipaggio.
+r:"([\s\S]+) started the ship."=$1 ha acceso i motori.
+r:"([\s\S]+)<color\\=#FF0000>([\s\S]+)"=$1<color\=#FF0000>$2.
+r:"^((\d|\d{2}):\d{2})\\nAM$"=$1\nAM
+r:"^((\d|\d{2}):\d{2})\\nPM$"=$1\nPM
+r:"^([0-9]+) EXP$"=$1 ESP
+r:"^([0-9]+)%$"=$1%
+r:"^([1][1,2,3,4]|[1-9]?[0,5,6,7,8,9]) casualties: (-[0-9]+%)\\n\(([1][2,3,4]|[1-9]?[0,5,6,7,8,9]) bodies recovered\)$"=$1 3VITTIME: $2\n($3 corpi recuperati)
+r:"^([1][1,2,3,4]|[1-9]?[0,5,6,7,8,9]) casualties: (-[0-9]+%)\\n\(([2-9]?[1]) bodies recovered\)$"=$1 1vittime: $2\n($3 corpi recuperati)
+r:"^([1][1,2,3,4]|[1-9]?[0,5,6,7,8,9]) casualties: (-[0-9]+%)\\n\(([2-9]?[2,3,4]) bodies recovered\)$"=$1 2Vittime: $2\n($3 corpi recuperati)
+r:"^([2-9]?[1]) casualties: (-[0-9]+%)\\n\(([1][1,2,3,4]|[1-9]?[0,5,6,7,8,9]) bodies recovered\)$"=$1 VITTIMA: $2%\n($3 CORPO RECUPERATO)
+r:"^([2-9]?[1]) casualties: (-[0-9]+%)\\n\(([2-9]?[1]) bodies recovered\)$"=$1 1vittima: $2\n($3 corpo recuperato)
+r:"^([2-9]?[1]) casualties: (-[0-9]+%)\\n\(([2-9]?[2,3,4]) bodies recovered\)$"=$1 2Vittima: $2\\n($3 Corpo recuperato)
+r:"^([2-9]?[2,3,4]) casualties: (-[0-9]+%)\\n\(([1][1,2,3,4]|[1-9]?[0,5,6,7,8,9]) bodies recovered\)$"=$1 VITTIME: $2\n($3 CORPI RECUPERATI)
+r:"^([2-9]?[2,3,4]) casualties: (-[0-9]+%)\\n\(([2-9]?[1]) bodies recovered\)$"=$1 vittime: $2\n($3 corpi recuperati)
+r:"^([2-9]?[2,3,4]) casualties: (-[0-9]+%)\\n\(([2-9]?[2,3,4]) bodies recovered\)$"=$1 Vittimee: $2\n($3 Corpi RecuperatEE)
+
+#r:"^\[Cooldown: ([0-9]+) sec.\]$"=[In ricarica: $1s]
+
+#Originale Regex Pericolosità
+r:"^([S,A,B,C,D,E,F,G][+]?)$"=$1
+r:"^(Safe)$"=Sicuro
+
+r:"^([a-z][0-9])$"=$1
+r:"^(\$[0-9]+)$"=$1
+r:"^(\[[A-Z]+\])$"=$1
+r:"^Casualties (\(x[0-9]+\)+): (-[0-9]+%)$"=Vittime: $1: $2
+r:"^DEADLINE:\\n([0,5,6,7,8,9]) Days$"=SCADENZA:\n$1 GIORNI
+r:"^DEADLINE:\\n([1]) Days$"=SCADENZA:\n$1 GIORNO
+r:"^DEADLINE:\\n([2,3,4]) Days$"=SCADENZA:\n$1 GIORNI
+DEADLINE:\n NOW=SCADENZA:\nADESSO
+r:"^DUE: (\$[0-9]+)$"=DEBITI: $1
+r:"^MONITORING: ([\s\S]+)$"=MONITORANDO: $1
+r:"^Overtime bonus: (\$[0-9]+)$"=Incentivo: $1
+r:"^PROFIT QUOTA:\\n(\$[0-9]+ \/ \$[0-9]+)$"=QUOTA:\n$1
+r:"^Random seed: ([0-9]+)$"=Seed casuale: $1
+r:"^Random seed:([0-9]+)$"=Seed casuale/nsenzaspazio: $1
+r:"^TOTAL: (\$[0-9]+)$"=TOTALE: $1
+r:"^Value: (\$[0-9]+|[?]+)$"=Valore: $1
+r:"^\(([0-9]+\/[0-9]+) Votes\)$"=($1 Voti)
+r:"^\(Spectating: ([\s\S]+)\)$"=(OSSERVANDO: $1)
+sr:"^Change: ([\s\S])$"=Cambia a: $1
+sr:"^Days on the job: ([\s\S]+)\nScrap value collected: ([\s\S]+)\nDeaths: ([\s\S]+)\nSteps taken: ([\s\S]+)$"=Giorni di lavoro：$1\nRottami raccolti：$2\nMorti：$3\nPassi：$4
+#sr:"^Found journal entry: ([\s\S]+)$"=Diario $1 recuperato.
+r:"^WARNING! Please return by (.+). A vote has been cast, and the autopilot ship will leave early.$"=ATTENZIONE! Fare ritorno entro le $1. La nave sta partendo per votazione.

@@ -1,0 +1,70 @@
+﻿#Schermo delle impostazioni
+#Regex del microfono / dispositivo di input audio
+r:"^Current input device: \\n ([\s\S]*)$"=Dispositivo di input: \n $1
+
+#Altre impostazioni
+ENABLED=ATTIVATO
+MODE: Push to talk=MODALITÀ: Premi per parlare
+MODE: Voice activation=MODALITÀ: Attivazione vocale
+Master volume:=Volume generale:
+
+DISPLAY=SCHERMO
+Frame rate cap:=Limite fotogrammi:
+Use monitor (V-Sync)=Schermo (V-Sync)
+Uncapped=Senza limite
+r:"^(\d|\d{2}|\d{3}) FPS$"=$1 FPS
+
+Display mode:=Modalità schermo:
+Fullscreen=Schermo intero
+Windowed fullscreen=Fin. a schermo intero
+Maximized window=Finestra massimizzata
+Window=In finestra
+Gamma/Brightness:=Gamma/Luminosità:
+ACCESSIBILITY=ACCESSIBILITÀ
+Arachnophobia Mode= Modalità per aracnofobici
+
+CONTROLS=CONTROLLI
+Look sensitivity:=Sensibilità:
+Invert Y-Axis=Inverti Asse Y
+> Change keybinds=> Cambia comandi
+Push to talk:=Premi per parlare:
+#Walk
+Walk forward=
+
+> Reset all to default=> Ripristina ai valori predefiniti
+> Confirm changes=> Conferma modifiche
+BACK=> Torna al menù.
+
+#Sezione keybinds
+REMAP CONTROLS=CONTROLLI
+Push to talk=Premi per parlare
+Walk forward=Cammina avanti 
+Walk back=Cammina indietro
+Walk left=Cammina a sinistra
+Walk right=Cammina a destra
+Jump=Salta
+Sprint=Corri
+Crouch=Accovacciati
+Interact=Interagisci
+Ping scan=Scansiona
+Item primary use= Usa oggetto
+Item Secondary use= Uso secondario
+Item Tertiary use= Uso terziario
+Item drop=Butta oggetto
+Item switch left=Cambia ogg: Sx.
+Item switch right=Cambia ogg. Dx.
+Item inspect=Ispeziona
+Replace furniture=Sposta i mobili
+Turn furniture=Ruota i mobili
+Store furniture=Conserva i mobili
+Dance=Balla
+Point=Indica
+Enable chat=Apri chat testuale
+Submit chat=Invia chat
+
+> Set to defaults=> Ripristina predefiniti
+
+
+#Controller
+
+REBIND CONTROLLERS=COMANDI CONTROLLER
