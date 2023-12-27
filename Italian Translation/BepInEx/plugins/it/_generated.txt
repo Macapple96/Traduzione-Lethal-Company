@@ -1,0 +1,6 @@
+﻿ Teeth= Dentiera
+ Big bolt= Grossa vite
+ Old phone= Vecchio telefono
+ Apparatice= Reattore
+ Magnifying glass= Lente d'ingrandimento
+\nPlastic fish =\nPesce giocattolo 

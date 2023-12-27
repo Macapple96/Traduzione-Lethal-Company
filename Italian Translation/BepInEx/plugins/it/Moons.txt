@@ -52,7 +52,7 @@ Expansive.=Vasto.
 
 # 71-Gordion
 Unknown=Ignoto
-No land masses. Continual storms.=Nessuna superficie.\nTempeste continue.
+No land masses. Continual storms.=Nessuna terra emersa.\nTempeste continue.
 Unknown\nWhere the Company resides.\n=Ignota\nQui risiede la Compagnia.\n
 
 ## Dine Rend & March aren't captured by the regex for some reason, trying bruteforce approach:
@@ -86,8 +86,17 @@ POPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf sta
 # Regex dei pianeti
 #sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)(\n)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4$5$6
 #sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4\nMETEO：$5
-sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNA: ([\s\S]+)(\s)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4$5$6
-sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNA: ([\s\S]+)\sWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4\nMETEO：$5
-sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)$"=POPOLAZIONE：$1\nCLIMA：$2\nFAUNA：$3\n$4
-sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE：$1\nCLIMA：$2\nFAUNA：$3
+#sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNA: ([\s\S]+)(\s)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4$5$6
+#sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNA: ([\s\S]+)\sWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4\nMETEO：$5
+#sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)$"=POPOLAZIONE：$1\nCLIMA：$2\nFAUNA：$3\n$4
+#sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE：$1\nCLIMA：$2\nFAUNA：$3
+
+sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)(\n)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4$5$6
+
+sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4\nMETEO： $5
+
+sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3
+
+sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3
+
 sr:"^CELESTIAL BODY: ([\s\S]+)$"=PIANETA: $1

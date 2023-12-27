@@ -1,4 +1,16 @@
-﻿# Oggetti (A-Z)
+﻿#[BetterItemScan]
+
+# TRADUZIONE ROTTAMI BETTER ITEM SCAN
+# TOGLIERE IL '#' (commento) PER ABILITARE
+#sr:"^(\* )?(?<item>[\S\s]+?): \$(?<value_i>[0-9]+)(?<end>[\s\S]+)?$"="$1${item}: $ ${value_i}${end}"
+
+# TRADUZIONE BASILARE BETTER ITEM SCAN
+# TRADUCE I TOTALI
+r:"([\s\S]+)?Total Scanned: (?<v1>[0-9]+)([\s\S]+): (?<v2>[0-9]+)"="$1Scansione: $ ${v1}\nA bordo: $ ${v2}"
+
+#[Vanilla]
+
+# Oggetti (A-Z)
 
 Airhorn=Trombetta ad aria
 Apparatice=Reattore
@@ -49,6 +61,7 @@ Steering wheel=Volante
 Sticky note=Promemoria
 Stop sign=Cartello STOP
 Tattered metal sheet=Lamiera danneggiata
+Tea Kettle=Bollitore
 Teeth=Dentiera
 Toothpaste=Dentifricio
 Toy cube=Cubo di Rubik
@@ -72,18 +85,18 @@ Cash register collected!=Registratore di cassa raccolto!
 Chemical jug collected!=Bombola raccolta!
 Clown horn collected!=Trombetta raccolta!
 Coffee mug collected!=Tazza da caffè raccolta!
-Comedy=Commedia raccolta!
+Comedy collected!=Commedia raccolta!
 Cookie mold pan collected!=Teglia per biscotti raccolta!
-Double-barrel=Fucile raccolto!
+Double-barrel collected!=Fucile raccolto!
 Dust pan collected!=Paletta raccolta!
 Egg beater collected!=Frusta raccolto!
 Fancy lamp collected!=Lampada stilosa raccolta!
-Flask collected=Ampolla raccolto!
-Gift collected=Regalo raccolto
+Flask collected!=Ampolla raccolta!
+Gift collected!=Regalo raccolto!
 Gold bar collected!=Lingotto d'oro raccolto!
 Golden cup collected!=Calice dorato raccolto
 Hair brush collected!=Spazzola per capelli raccolta!
-Hairdryer=Asciugacapelli raccolto!
+Hairdryer collected!=Asciugacapelli raccolto!
 Hive collected!=Alveare raccolto!
 Homemade flashbang collected!=Granata accroccata raccolta!
 Item collected!=Oggetto raccolto!
@@ -108,13 +121,12 @@ Shotgun collected!=Fucile raccolto!
 Steering wheel collected!=Volante raccolto!
 Stop sign collected!=Cartello STOP raccolto!
 Tattered metal sheet collected!=Lamiera danneggiata raccolta!
-Tea Kettle=Bollitore
 Tea kettle collected!=Bollitore raccolto!
-Teeth collected!=Lascia Dentiera!
+Teeth collected!=Dentiera raccolta!
 Toothpaste collected!=Dentifricio raccolto!
 Toy cube collected!=Cubo di Rubik raccolto!
 Toy robot collected!=Robottino raccolto!
-Tragedy=Tragedia raccolta!
+Tragedy collected!=Tragedia raccolta!
 V-type engine collected!=Motore a V raccolto!
 Wedding ring collected!=Fede nuziale raccolta!
 Whoopie cushion collected!=Cuscino scoreggione raccolto!
@@ -171,7 +183,7 @@ Drop Sticky note : [G]=Lascia Promemoria : [G]
 Drop Stop sign : [G]=Lascia Cartello STOP : [G]
 Drop Tattered metal sheet : [G]= Lascia Lamiera danneggiata : [G]
 Drop Tea kettle : [G]=Lascia Bollitore: [G]
-Drop Teeth : [G]=Dentiera raccolta: [G]
+Drop Teeth : [G]=Lascia Dentiera: [G]
 Drop Toothpaste : [G]=Lascia Dentifricio : [G]
 Drop Toy cube : [G]=Lascia Cubo di Rubik : [G]
 Drop Toy robot : [G]=Lascia Robottino : [G]
@@ -186,5 +198,5 @@ Drop Yield sign : [G]=Lascia Cartello "Precedenza" : [G]
 
 Fire : [LMB]=Spara : [TSM]
 Reload : [E]=Ricarica : [E]
-Turn safety on: [Q]=Metti la sicura: [Q]
 Turn safety off: [Q]=Togli la sicura: [Q]
+Turn safety on: [Q]=Metti la sicura: [Q]

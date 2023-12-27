@@ -1,5 +1,13 @@
 # Changelog
 
+## Beta 0.11.6
+- Risolto problema con le traduzioni delle maschere
+- Compatibilità con [BetterItemScan](https://thunderstore.io/c/lethal-company/p/PopleZoo/BetterItemScan/)
+	- Note: Di base, la traduzione degli oggetti scansionati da BetterItemScan è DISABILITATA per problemi di performance.
+	- Per abilitare questa traduzione, navigare nel file `/items.txt` e rimuovere il `#` dalla regex interessata.
+- Compatibilità con [ShipLoot](https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/)
+- Aggiunta LICENSE.TXT (GNU General Public License v3.0), la mod è effettivamente 100% open-source ora!
+
 ## Beta 0.11.5
 - Spostata traduzione fuori da `\config` verso `\plugins` per fare ordine
 	- Consiglio caldamente di cancellare la cartella `\config\it` per fare evitare file doppi e tenere i mod manager puliti

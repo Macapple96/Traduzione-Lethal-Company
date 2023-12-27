@@ -81,7 +81,8 @@ TIP!: Hold [RMB] to vote for the autopilot ship to leave early=CONSIGLIO!: Tieni
 [LIFE SUPPORT: OFFLINE]=[SUPPORTO VITALE: FALLITO]
 (Dead)=(MORTO)
 
-YOU ARE FIRED.=SEI LICENZIATO.
+YOU ARE FIRED.=SEI\n   LICENZIATO
+You did not meet the profit quota before the deadline.=Non hai raggiunto la quota prestabilita entro la scadenza.
 Fines=Trattenute
 
 RECEIVING SIGNAL=Trasmissione ricevuta
