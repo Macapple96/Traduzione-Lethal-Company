@@ -97,6 +97,6 @@ sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: (
 
 sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3
 
-sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3
+sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)?$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3\n$4
 
 sr:"^CELESTIAL BODY: ([\s\S]+)$"=PIANETA: $1

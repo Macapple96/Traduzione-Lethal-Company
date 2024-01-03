@@ -23,9 +23,6 @@ Main entrance=Entrata principale
 
 VISIBILITY LOW!\n\nSteam leak detected in area=Scarsa visibilità!\nPerdita di vapore rilevata!
 
-#BetterItemScan - Compatibility
-#ORIGINAL "Total Scanned: ([0-9]+) Ship Total: ([0-9]+)"=XD $1 XP $2
-
 
 
 #Shiploot - Compatibility
