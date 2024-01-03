@@ -38,7 +38,8 @@ Il Mod Manager si occuperà automaticamente dell'installazione della mod e delle
 - ❗ **IN PROGRAMMA**: Doppiaggio dei messaggi vocali della Compagnia a inizio e fine partita (tramite [no00ob-LCSoundTool](https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/) e [Clementinise-CustomSounds](https://thunderstore.io/c/lethal-company/p/Clementinise/CustomSounds/) )
 - ❗ **IN PROGRAMMA**: Traduzione delle cause di morte aggiunte dalla mod [EliteMasterEric-Coroner](https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/)
 
-![Anteprima Traduzione Apparatus/Reattore]()
+![Anteprima Traduzione Apparatus/Reattore](https://github.com/Macapple96/Traduzione-Lethal-Company/blob/master/Italian%20Translation/Other%20Assets/teaser_apparatus_low.webp?raw=true)
+
 
 ## Cose da fare
 
