@@ -1,5 +1,9 @@
 # Changelog
 
+## Beta 0.11.7
+- Aggiunti nuovi termini di traduzione mancanti
+- Sistemati alcuni errori
+
 ## Beta 0.11.6
 - Risolto problema con le traduzioni delle maschere
 - Compatibilità con [BetterItemScan](https://thunderstore.io/c/lethal-company/p/PopleZoo/BetterItemScan/)

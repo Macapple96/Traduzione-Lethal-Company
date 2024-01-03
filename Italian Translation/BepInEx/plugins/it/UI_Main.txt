@@ -1,6 +1,6 @@
 ﻿#Versione
 r:"^v([0-9]+)$"=v$1
-
+r:"(^[\s\S]+)(\[MODDED\])$"=$1[MOD ATTIVE]
 
 Adjust screen brightness until the symbol on the right is barely visible.=Regolare la luminosità dello schermo finché il simbolo a destra è a malapena visibile.
 Voice volume=Volume voce
@@ -24,7 +24,7 @@ Host LAN Server:=Avvia server LAN:
 Allow remote connections= Consenti\nconnessioni\nremote
 Local-only=Solo in\nlocale
 
-An error occured!=Si è verificato un/nerrore!
+An error occured!=Si è verificato\nun errore!
 
 > Join LAN session=> Unisciti a una sessione LAN
 (Launched in LAN mode)=(Avviato in modalità LAN)
@@ -51,6 +51,7 @@ r:"^(\$[0-9]+)\\nDays: ([0-9]+)$"=$1\nGiorni: $2
 
 Servers=Server
 [ Refresh ]=[Aggiorna]
+Loading server list...=Caricamento\n  lista server...
 Sort: near=Ordine: vicino
 Sort: far=Ordine: lontano
 Sort: worldwide=Ordine: tutti
@@ -63,7 +64,7 @@ Go back=Torna indietro
 Back=Indietro
 
 > Back=> Indietro
-DISCARD=> Annulla
+> DISCARD=> ANNULLA
 Discard=Annulla
 Discard changes=Annulla le modifiche
 Confirm=Conferma

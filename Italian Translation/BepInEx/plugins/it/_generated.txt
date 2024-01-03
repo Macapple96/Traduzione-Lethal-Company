@@ -4,3 +4,10 @@
  Apparatice= Reattore
  Magnifying glass= Lente d'ingrandimento
 \nPlastic fish =\nPesce giocattolo 
+ \nBig bolt= \nGrossa vite
+ \nOld phone= \nVecchio telefono
+ \nMagnifying glass= \nLente d'ingrandimento
+ \nFlask= \nAmpolla
+ \nTeeth= \nDentiera
+ \nApparatus= \nReattore
+ \nTea kettle= \nBollitore
