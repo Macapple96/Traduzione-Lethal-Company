@@ -6,7 +6,7 @@ Adjust screen brightness until the symbol on the right is barely visible.=Regola
 Voice volume=Volume voce
 
 # Menù
-LAUNCH MODE=Modalità avvio
+LAUNCH MODE=MODALITÀ D'AVVIO
 > Online=> Online
 > LAN=> LAN
   Online=  Online
@@ -16,8 +16,8 @@ LAUNCH MODE=Modalità avvio
 > Host=> Avvia il server
 > Join a crew=> Unisciti a una partita
 > Settings=> Impostazioni
-> Credits=> Crediti
-Credits=Crediti
+> Credits=> Riconoscimenti
+Credits=Riconoscimenti
 > Quit=> Esci
 
 Host LAN Server:=Avvia server LAN:
@@ -86,4 +86,4 @@ YOU ARE FIRED.=SEI\n   LICENZIATO
 You did not meet the profit quota before the deadline.=Non hai raggiunto la quota prestabilita entro la scadenza.
 Fines=Trattenute
 
-RECEIVING SIGNAL=Trasmissione ricevuta
+RECEIVING SIGNAL=TRASMISSIONE RICEVUTA
