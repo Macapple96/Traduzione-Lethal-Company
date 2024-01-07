@@ -42,7 +42,7 @@ r:"^Total Scanned: (\$[0-9]+)$"=TOTALE: $1
 r:"^Ship Total: (\$[0-9]+)$"=TOTALE: $1
 r:"^Value: (\$[0-9]+|[?]+)$"=Valore: $1
 r:"^\(([0-9]+\/[0-9]+) Votes\)$"=($1 Voti)
-r:"^\(Spectating: ([\s\S]+)\)$"=(OSSERVANDO: $1)
+r:"^\(Spectating: ([\s\S]+)\)$"=(Osservando: $1)
 sr:"^Change: ([\s\S])$"=Cambia a: $1
 sr:"^Days on the job: ([\s\S]+)\nScrap value collected: ([\s\S]+)\nDeaths: ([\s\S]+)\nSteps taken: ([\s\S]+)$"=Giorni di lavoro：$1\nRottami raccolti：$2\nMorti：$3\nPassi：$4
 
