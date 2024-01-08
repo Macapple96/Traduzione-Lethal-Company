@@ -7,7 +7,7 @@
   <img src="https://github.com/Macapple96/Traduzione-Lethal-Company/blob/master/Italian%20Translation/BepInEx/plugins/texture/LogoTextV1%20%5BA6946826E1-170022950F%5D.png?raw=true" alt="Logo"/>
 </p>
 
-Se trovate errori, avete consigli o per qualsiasi dubbio, potete usare la pagina [Github](https://github.com/Macapple96/Traduzione-Lethal-Company) o contattarmi su Discord @_maca_ 
+Se trovate errori, avete consigli o per qualsiasi dubbio, potete usare la pagina [Github](https://github.com/Macapple96/Traduzione-Lethal-Company) o contattarmi su Discord @\_maca\_ 
 
 # Istruzioni Installazione
 

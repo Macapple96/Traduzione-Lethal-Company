@@ -28,8 +28,6 @@ Look sensitivity:=Sensibilità:
 Invert Y-Axis=Inverti Asse Y
 > Change keybinds=> Cambia comandi
 Push to talk:=Premi per parlare:
-#Walk
-Walk forward=
 
 > Reset all to default=> Ripristina ai valori predefiniti
 > Confirm changes=> Conferma modifiche

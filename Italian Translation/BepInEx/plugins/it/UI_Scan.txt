@@ -21,9 +21,4 @@ Home base=Base operativa
 
 Main entrance=Entrata principale
 
-VISIBILITY LOW!\n\nSteam leak detected in area=Scarsa visibilità!\nPerdita di vapore rilevata!
-
-
-
-#Shiploot - Compatibility
-r:"\s?SHIP: $([0-9]+)"=NAVE: $1 $
+VISIBILITY LOW!\n\nSteam leak detected in area=SCARSA VISIBILITÀ!\nPERDITA DI VAPORE RILEVATA!

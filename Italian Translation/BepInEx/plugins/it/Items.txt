@@ -1,14 +1,4 @@
-﻿#[BetterItemScan]
-
-# TRADUZIONE ROTTAMI BETTER ITEM SCAN
-# TOGLIERE IL '#' (commento) PER ABILITARE
-#sr:"^(\* )?(?<item>[\S\s]+?): \$(?<value_i>[0-9]+)(?<end>[\s\S]+)?$"="$1${item}: $ ${value_i}${end}"
-
-# TRADUZIONE BASILARE BETTER ITEM SCAN
-# TRADUCE I TOTALI
-r:"([\s\S]+)?Total Scanned: (?<v1>[0-9]+)([\s\S]+): (?<v2>[0-9]+)"="$1Scansione: $ ${v1}\nA bordo: $ ${v2}"
-
-#[Vanilla]
+﻿#[Vanilla]
 
 #Paycheck tentative
 sr:"^(?<item>[\s\S]+?) \(x(?<amount_i>[0-9]+)\) : (?<value_i>[0-9]+)(?<end>[\s\S]+)?$"="${item} (x${amount_i}) : ${value_i}${end}"

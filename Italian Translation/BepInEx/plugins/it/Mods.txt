@@ -1,0 +1,15 @@
+# [DiscountAlert]
+Today's discounts=Sconti di oggi
+
+# [BetterItemScan]
+
+# TRADUZIONE ROTTAMI BETTER ITEM SCAN
+# TOGLIERE IL '#' (commento) PER ABILITARE
+#sr:"^(\* )?(?<item>[\S\s]+?): \$(?<value_i>[0-9]+)(?<end>[\s\S]+)?$"="$1${item}: $ ${value_i}${end}"
+
+# TRADUZIONE BASILARE BETTER ITEM SCAN
+# TRADUCE I TOTALI
+r:"([\s\S]+)?Total Scanned: (?<v1>[0-9]+)([\s\S]+): (?<v2>[0-9]+)"="$1Scansione: $ ${v1}\nA bordo: $ ${v2}"
+
+# [Shiploot - Compatibility]?
+r:"\s?SHIP: $([0-9]+)"=NAVE: $1 $
