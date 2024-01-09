@@ -4,7 +4,9 @@
 #A-Z
 Access terminal : [E]=Accedi al terminale : [E]
 Beam up : [E]=Teletrasporta: [E]
-Change: Green suit=Cambia tuta: Verde
+Change: Green suit=Metti tuta verde
+Change: Hazmat suit=Metti tuta protettiva
+Change: Pajama suit=Metti il pigiama
 Charge item : [E]=Ricarica : [E]
 Climb : [E]=Scala : [E]
 Close door : [E]=Chiudi porta : [E]

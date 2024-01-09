@@ -2,7 +2,7 @@
 Alert! The autopilot is leaving due to dangerous conditions.=Attenzione! Il pilota automatico sta partendo a causa delle condizioni avverse.
 Autosaving...=Autosalvataggio...
 CREW:=EQUIPAGGIO:
-Change suit=Cambia tuta
+Change suit=Metti tuta
 DOOR HYDRAULICS:=PRESSIONE PORTA:
 HANDS FULL=MANI OCCUPATE
 HAZARD LEVEL:=PERICOLOSITÀ:

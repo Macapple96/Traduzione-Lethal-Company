@@ -62,7 +62,56 @@ Submit chat=Invia chat
 
 > Set to defaults=> Ripristina predefiniti
 
+LeftArrow=Freccia Sx
+RightArrow=Freccia Dx
+Up Arrow=Freccia Su
+Down Arrow=Freccia Giù
 
-#Controller
+Space=Spazio
+
+Right Button=Tasto Destro
+Left Button=Tasto Sinistro
+Enter=Invio
+
+Scroll/Up=Rotella/Su
+Scroll/Down=Rotella/Giù
+
+#[Controller]
 
 REBIND CONTROLLERS=COMANDI CONTROLLER
+
+Move forward=Cammina avanti
+Move back=Cammina indietro
+Move left=Cammina a sinistra
+Move right=Cammina a destra 
+
+#TASTI
+Button North=Tasto Triangolo
+Button South=Tasto X
+Button West=Tasto Quadrato 
+Button East=Tasto Cerchio
+
+Left Trigger=L2
+Right Trigger=R2
+
+Left Shoulder=L1
+Right Shoulder=R1
+
+#DPAD
+D-Pad/Up=Pad Direz.\nSu
+D-Pad/Down=Pad Direz.\nGiù
+D-Pad/Left=Pad Direz.\nSinistra
+D-Pad/Right=Pad Direz.\nDestra
+
+#ANALOGICI
+Left Stick/Up=Analogico Sx/Su
+Left Stick/Down=Analogico Sx/Giù
+Left Stick/Left=Analogico Sx/Sinistra
+Left Stick/Right=Analogico Sx/Destra
+Left Stick Press=Analogico Sx/Premi
+
+Right Stick/Up=Analogico Dx/Su
+Right Stick/Down=Analogico Dx/Giù
+Right Stick/Left=Analogico Dx/Sinistra
+Right Stick/Right=Analogico Dx/Destra
+Right Stick Press=Analogico Dx/Premi

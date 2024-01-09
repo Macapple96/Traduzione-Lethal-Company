@@ -1,6 +1,6 @@
 ﻿#Versione
-r:"^v([0-9]+)$"=v$1
-r:"(^[\s\S]+)(\[MODDED\])$"=$1[MOD ATTIVE]
+r:"^v([0-9]+)$"=v$1\n<color\=#AA0500><size\=8>    (Traduzione   a   cura   di:  <color\=#A0CAA0> Maca, Mavri, Makinday</color>)</size></color>
+r:"(^[\s\S]+)(\[MODDED\])$"=$1[MOD ATTIVE]\n<color\=#AA0500><size\=8>    (Traduzione   a   cura   di:  <color\=#A0CAA0> Maca, Mavri, Makinday</color>)</size></color>
 
 Adjust screen brightness until the symbol on the right is barely visible.=Regolare la luminosità dello schermo finché il simbolo a destra è a malapena visibile.
 Voice volume=Volume voce
@@ -39,6 +39,7 @@ Public=Pubblico
 PUBLIC means your game will be visible on the server list for all to see.=Pubblico: La tua partita sarà visibile a chiunque.
 Friends-only=Solo amici
 PRIVATE means you must send invites through Steam for players to join.=Solo amici: Invita i tuoi amici dall'interfaccia Steam.
+Enter a tag...=Scrivi etichetta...
 [ Confirm ]=[Conferma]
 [ Back ]=[Indietro]
 
@@ -64,7 +65,7 @@ Go back=Torna indietro
 Back=Indietro
 
 > Back=> Indietro
-> DISCARD=> ANNULLA
+DISCARD=> ANNULLA
 Discard=Annulla
 Discard changes=Annulla le modifiche
 Confirm=Conferma

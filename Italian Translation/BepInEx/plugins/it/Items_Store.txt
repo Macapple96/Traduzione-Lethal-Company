@@ -15,6 +15,9 @@ Turn page : [Q/E]=Gira pagina : [Q/E]
 Use grenade : [LMB]=Usa granata: [TSM]
 Use jetpack : [LMB]=Usa jetpack : [TSM]
 
+Pajama suit=Pigiama
+Squeeze : [E]=Strizza : [E]
+
 #Drop_Items_Store
 
 Drop Boombox : [G]=Lascia Stereo : [G]

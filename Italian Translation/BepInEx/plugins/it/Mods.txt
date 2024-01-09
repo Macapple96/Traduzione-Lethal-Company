@@ -1,8 +1,8 @@
 # [DiscountAlert]
 Today's discounts=Sconti di oggi
+None :(\nCheck back tomorrow!="Nessuno :(\nTorna domani!"
 
 # [BetterItemScan]
-
 # TRADUZIONE ROTTAMI BETTER ITEM SCAN
 # TOGLIERE IL '#' (commento) PER ABILITARE
 #sr:"^(\* )?(?<item>[\S\s]+?): \$(?<value_i>[0-9]+)(?<end>[\s\S]+)?$"="$1${item}: $ ${value_i}${end}"
@@ -13,3 +13,22 @@ r:"([\s\S]+)?Total Scanned: (?<v1>[0-9]+)([\s\S]+): (?<v2>[0-9]+)"="$1Scansione:
 
 # [Shiploot - Compatibility]?
 r:"\s?SHIP: $([0-9]+)"=NAVE: $1 $
+
+# [SpectateEnemies]
+Swap between Players/Enemies=<color\=#f542a4>[SE]</color> Osserva Giocatori o Nemici
+Open Config Menu=<color\=#f542a4>[SE]</color> Apri menù impostazioni
+Toggle Flashlight=<color\=#f542a4>[SE]</color> Abilita torcia
+
+# [FastSwitchPlayerViewInRadar]
+Radar Previous Cam=<color\=#f542a4>[FSPV]</color> Monitora precedente
+Radar Next Cam=<color\=#f542a4>[FSPV]</color> Monitora successivo
+
+# [TerminalHistory]
+Next Command=<color\=#f542a4>[TH]</color> Comando successivo
+Previous Command=<color\=#f542a4>[TH]</color> Comando precedente
+
+# [Minimap]
+r:"^LOCKED: ([\s\S]+)$"=BLOCCATO SU: $1
+
+# [Better Saves]
+New File=Nuovo Salv.

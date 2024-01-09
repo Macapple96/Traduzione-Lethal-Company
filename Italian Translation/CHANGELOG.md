@@ -1,5 +1,12 @@
 # Changelog
 
+## Beta 0.11.8
+- Rimossi termini ridondanti
+- Inizio supporto per aggiornamento v47
+- Aggiunto `Mods.txt` per raccogliere in un solo file le varie compatibilità con altre mod.
+	- Le mod che aggiungono tasti rapidi in opzioni sono indicate da un \[TAG COLORATO\] che riporta le *iniziali* della mod.
+- Aggiunte traduzioni controller, tasti ecc.
+
 ## Beta 0.11.7
 - Aggiunti nuovi termini di traduzione mancanti
 - Sistemati alcuni errori
@@ -8,7 +15,7 @@
 - Risolto problema con le traduzioni delle maschere
 - Compatibilità con [BetterItemScan](https://thunderstore.io/c/lethal-company/p/PopleZoo/BetterItemScan/)
 	- Note: Di base, la traduzione degli oggetti scansionati da BetterItemScan è DISABILITATA per problemi di performance.
-	- Per abilitare questa traduzione, navigare nel file `/items.txt` e rimuovere il `#` dalla regex interessata.
+	- Per abilitare questa traduzione, navigare nel file `/Mods.txt` e rimuovere il `#` dalla regex interessata.
 - Compatibilità con [ShipLoot](https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/)
 - Aggiunta LICENSE.TXT (GNU General Public License v3.0), la mod è effettivamente 100% open-source ora!
 

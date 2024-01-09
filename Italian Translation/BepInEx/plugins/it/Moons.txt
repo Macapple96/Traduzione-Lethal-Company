@@ -27,12 +27,14 @@ Abandoned=Abbandonato
 
 ## Descrizioni Pianeti
 # 8-Titan
-Frozen, rocky. This moon was mined for resources. It's easy to get lost here.=Congelato. Roccioso. Precedentemente miniera per estrazione di risorse.
+None\n=Nessuno\n
+Frozen, rocky. This moon was mined for resources. It's easy to get lost here.\n=Congelato. Roccioso. Precedentemente miniera per estrazione di risorse.
 Dangerous entities have been rumored to take residence in the vast network of tunnels.\n=Si vocifera che nella intricata rete di tunnel vivano creature pericolose.\n
 
 # 220-Assurance
 # 21-Offense
 Jagged and weathered terrain. =Terreno frastagliato e difficile da percorrere.
+A younger moon than its twin, featuring\n jagged and weathered terrain.=Luna più giovane della sua gemella, terreno frastagliato e aspro.
 Ecosystem supports territorial behaviour.=L’ecosistema supporta il comportamento territoriale.
 Ecosystem supports territorial behaviour.\n=L’ecosistema supporta il comportamento territoriale.\n
 
@@ -94,6 +96,8 @@ POPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf sta
 sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)(\n)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4$5$6
 
 sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4\nMETEO： $5
+
+sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWEATHER: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4\nMETEO： $5
 
 sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3
 

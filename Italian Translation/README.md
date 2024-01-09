@@ -7,7 +7,7 @@
   <img src="https://github.com/Macapple96/Traduzione-Lethal-Company/blob/master/Italian%20Translation/BepInEx/plugins/texture/LogoTextV1%20%5BA6946826E1-170022950F%5D.png?raw=true" alt="Logo"/>
 </p>
 
-Se trovate errori, avete consigli o per qualsiasi dubbio, potete usare la pagina [Github](https://github.com/Macapple96/Traduzione-Lethal-Company) o contattarmi su Discord @\_maca\_ 
+Se trovate errori, avete consigli o per qualsiasi dubbio, potete usare la pagina [Github](https://github.com/Macapple96/Traduzione-Lethal-Company) o contattarmi su Discord *@\_maca\_*
 
 # Istruzioni Installazione
 
@@ -30,9 +30,10 @@ Trascinare la cartella `BepInEx` contenuta nel file `.zip` nella propria install
 
 Il percorso di default è: `\Steam\steamapps\common\Lethal Company\`
 
-## Caratteristiche
+## 🌟 Caratteristiche
 - ✅ Traduzione italiana completamente lato client (non serve che tutti la installino).
 	- Ho adattato i nomi di oggetti e creature cercando di mantenere lo spirito del gioco.
+	- Gran parte delle texture sono comprese!
 - ✅ Conversione dell'unità di peso a qualcosa di comprensibile al posto delle 🦅 *Freedom Units™* 🦅 
 - ✅ Orologio in-game in formato **24 ore** anziché **12 ore (AM/PM)**.
 - 🚧 **IN CORSO**: Traduzione completa del terminale, bestiario, negozio e dei comandi.
@@ -47,17 +48,27 @@ Il percorso di default è: `\Steam\steamapps\common\Lethal Company\`
 
 [![Anteprima Traduzione Apparatus/Reattore](https://raw.githubusercontent.com/Macapple96/Traduzione-Lethal-Company/master/Italian%20Translation/Other%20Assets/teaser_apparatus.webp?raw=true)](https://raw.githubusercontent.com/Macapple96/Traduzione-Lethal-Company/master/Italian%20Translation/Other%20Assets/teaser_apparatus.png)
 
-## Problemi già noti
+## 👷 Problemi già noti
 
-- ❌ Alcune traduzioni sono un po' buggatine, ma dipende dal gioco credo...
+- ❌ Alcune traduzioni sono un po' buggatine, ma è abbastanza fuori dal mio controllo...
 	- Ad esempio la traduzione del `Random seed:` all'inizio della partita a volte funziona e altre no.
+	- I pianeti fanno i capricci a volte traducono a volte no, non so la causa, la regex cattura correttamente su r101.
 - ❌ Alcuni elementi potrebbero sembrare strani, come il conteggio vittime. È quasi sistemato.
 - ❌ Alcuni elementi testuali come la scritta "QUOTA RAGGIUNTA" escono dai bordi.
 
-## Contributors
+## 😀 Contributors
+
+<i>Questa mod è stata realizzata con l'aiuto di:</i>
 
 <i>Made with the help of the following contributors:</i>
 
 1. Lynxbite, author of the Russian translation mod
 2. benjenkinsv95, author of the Latin Localization mod
 3. My friend Mauri for helping with regexes and feedback
+4. Makinday, helping with some polishing work
+
+## 🧾 LICENSE/LICENZA 
+
+Fieramente open-source grazie a [GNU GENERAL PUBLIC LICENSE](https://github.com/Macapple96/Traduzione-Lethal-Company/blob/master/Italian%20Translation/LICENSE.txt)
+
+Proudly open-source under [GNU GENERAL PUBLIC LICENSE](https://github.com/Macapple96/Traduzione-Lethal-Company/blob/master/Italian%20Translation/LICENSE.txt)
