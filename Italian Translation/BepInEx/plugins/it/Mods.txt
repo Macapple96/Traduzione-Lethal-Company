@@ -1,6 +1,7 @@
 # [DiscountAlert]
-Today's discounts=Sconti di oggi
-None :(\nCheck back tomorrow!="Nessuno :(\nTorna domani!"
+Today's discounts=-Sconti di oggi-
+ Today's discounts= -Sconti di oggi-
+None :(\nCheck back tomorrow!=Nessuno :(\nTorna domani!
 
 # [BetterItemScan]
 # TRADUZIONE ROTTAMI BETTER ITEM SCAN
@@ -32,3 +33,42 @@ r:"^LOCKED: ([\s\S]+)$"=BLOCCATO SU: $1
 
 # [Better Saves]
 New File=Nuovo Salv.
+
+# [IntroTweaks?]
+r:"^> Show Legacy Controls \((\d+) present\)$"=> Altri controlli ($1 rilevati) 
+
+#[Lethal Progression]
+> Skills= > Abilità
+Return to the ship to unspec.=Ritorna alla nave per redistribuire.
+r:"^Level: (\d+)$"=Livello: $1
+r:"^You've made.. (\d+)\$$"=Tuoi contributi: $1 $
+
+#[Skill Page]
+Upgrades:=Punti Ab.
+Level Up! Spend your skill points.=Livello alzato! Spendi i tuoi punti.
+(Pause Menu -> Skills)=(Pausa -> Abilita)
+Level up to earn more skill points. You can level up by picking scrap and killing enemies.=Sali di livello per ottenere punti. Puoi livellare raccogliendo oggetti e uccidendo nemici.
+
+HPR:=RIG:
+STM:=VIG:
+HND:=INV:
+
+r:"\(\+(\d+)\% Health Regeneration\)"=(+$1% Rigenerazione)
+Health Regen=Rigenerazione Salute
+The company installs a basic healer into your suit, letting you regenerate health slowly. Only regenerate up to 100 HP.=La Compagnia installa un modulo curativo nella tuta, permettendo un lento recupero della salute.\nPuoi rigenerarti fino a 100 PV.
+
+r:"\(\+(\d+)\% Stamina\)"=(+$1% Vigore)
+Stamina=Vigore
+Hours on that company gym finally coming into play. Allows you to run for longer.=Le ore di allenamento nella palestra della Compagnia si fanno sentire. Permette di correre più a lungo.
+
+r:"\(\+(\d+)\% Battery Life\)"=(+$1% Durata Batterie)
+Battery Life=Durata Batterie
+The company provides you with better batteries. Replace your batteries AT THE SHIP'S CHARGER to see an effect.=La Compagnia ti concede batterie migliori. Ricarica le batterie ALLA BOBINA DELLA NAVE per sfruttarne l'effetto.
+
+r:"\(\+(\d+)\% Hand Slots\)"=(+$1% Inventario)
+Hand Slot=Inventario
+The company finally gives you a better belt! Fit more stuff! (Reach 100% for one slot.)=La Compagnia ti concede una cintura migliore! Puoi prendere più roba! (Uno slot aggiuntivo ogni 100%)
+
+r:"\(\+(\d+)\% Loot Value\)"=(+$1% Valore Rottami)
+Loot Value=Valore Rottami
+The company gives you a better pair of eyes, allowing you to see the value in things.=La Compagnia ti grazia con degli occhi migliori, permettendoti di percepire meglio il valore delle cose.

@@ -1,7 +1,7 @@
 0 Days Left=0 Giorni
 1 Day Left=1 Giorno
 2 Days Left=2 Giorni
-HALT!=ATTENZIONE
+HALT!=ATTENZIONE!
 Notes: \n=Note: \n
 Notes:=Note:
 Most profitable=Impiegato più efficiente

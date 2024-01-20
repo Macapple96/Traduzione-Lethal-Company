@@ -1,5 +1,11 @@
 # Changelog
 
+## Beta 0.12.0
+- Aggiunte nuove traduzioni
+- Forse è la volta buona che ho sistemato le traduzioni dei pianeti!
+- Supporto alla traduzione delle Weekly Challenge Moons
+- Aggiunto supporto per [Lethal Progression](https://thunderstore.io/c/lethal-company/p/Stoneman/LethalProgression/)!
+
 ## Beta 0.11.8
 - Rimossi termini ridondanti
 - Inizio supporto per aggiornamento v47

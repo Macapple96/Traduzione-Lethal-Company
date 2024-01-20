@@ -1,106 +1,76 @@
 ﻿# Condizioni meteo
-\nWeather: Eclipsed=\nMeteo: Eclissato
-\nWeather: Flooded=\nMeteo: Allagato
-\nWeather: Foggy=\nMeteo: Nebbioso
-\nWeather: Rainy=\nMeteo: Piovoso
-\nWeather: Stormy=\nMeteo: Temporalesco
-Weather: Eclipsed=Meteo: Eclissato
-Weather: Flooded=Meteo: Allagato
-Weather: Foggy=Meteo: Nebbioso
-Weather: Rainy=Meteo: Piovoso
-Weather: Stormy=Meteo: Temporalesco
+Eclipsed=<color\=#9e203b>Eclissato</color>
+Flooded=<color\=#145796>Allagato</color>
+Foggy=Nebbioso</color>
+Rainy=<color\=#87d4ed>Piovoso</color>
+Stormy=<color\=#e3b74f>Temporalesco</color>
 
 #Population
 None=Nessuno
 Abandoned=Abbandonato
 
 # Pianeti, rimasti invariati. Anche se potrei considerare di invertire nome e numero (8 Titan -> Titan 8?)
-7 Dine=7 Dine
-8 Titan=8 Titan
-21 Offense=21 Offense
-220 Assurance=220 Assurance
-41 Experimentation=41 Experimentation
-56 Vow=56 Vow
-61 March=61 March
-71 Gordion=71 Gordion
-85 Rend=85 Rend
+7 Dine=<color\=#2cc941>7 Dine</color>
+8 Titan=<color\=#2cc941>8 Titan</color>
+21 Offense=<color\=#2cc941>21 Offense</color>
+220 Assurance=<color\=#2cc941>220 Assurance</color>
+41 Experimentation=<color\=#2cc941>41 Experimentation</color>
+56 Vow=<color\=#2cc941>56 Vow</color>
+61 March=<color\=#2cc941>61 March</color>
+71 Gordion=<color\=#2cc941>71 Gordion</color>
+85 Rend=<color\=#2cc941>85 Rend</color>
 
 ## Descrizioni Pianeti
 # 8-Titan
 None\n=Nessuno\n
-Frozen, rocky. This moon was mined for resources. It's easy to get lost here.\n=Congelato. Roccioso. Precedentemente miniera per estrazione di risorse.
-Dangerous entities have been rumored to take residence in the vast network of tunnels.\n=Si vocifera che nella intricata rete di tunnel vivano creature pericolose.\n
+Frozen, rocky. This moon was mined for resources. It's easy to get lost here.\n=Ex-sito minerario. Labirintico, facile perdersi.
+Dangerous entities have been rumored to take residence in the vast network of tunnels.\n=Creature pericolose nei corridoi.
 
-# 220-Assurance
-# 21-Offense
+# Dine & Rend
+Frozen, rocky. Its planet orbits a white dwarf star.=Congelato e roccioso. Orbita una stella nana bianca.
+Unlikely for complex life to exist=Improbabile esistenza di vita complessa.
+Unlikely for complex life to exist\n=Improbabile esistenza di vita complessa.\n
+
+# 220-Assurance & 21-Offense
 Jagged and weathered terrain. =Terreno frastagliato e difficile da percorrere.
 A younger moon than its twin, featuring\n jagged and weathered terrain.=Luna più giovane della sua gemella, terreno frastagliato e aspro.
+A younger moon than its twin, featuring jagged and weathered terrain.=Luna più giovane della sua gemella, terreno frastagliato e aspro.
 Ecosystem supports territorial behaviour.=L’ecosistema supporta il comportamento territoriale.
 Ecosystem supports territorial behaviour.\n=L’ecosistema supporta il comportamento territoriale.\n
 
 # 41-Experimentation
 Arid. Thick haze, worsened by industrial artifacts.=Arido. Densa nebbia, aggravata dai resti industriali.
+Dominated by a few species.=Molteplici specie dominanti.
 Dominated by a few species.\n=Molteplici specie dominanti.\n
 
 # 5-Vow
 Humid. Rough terrain. Teeming with plant-life.=Terreno umido e accidentato, con flora molto abbondante.
 A competitive ecosystem supports aggressive lifeforms.\n=Supporta forme di vita aggressive.\n
+A competitive ecosystem supports aggressive lifeforms.=Supporta forme di vita aggressive.
 Oxygen critically low!=Ossigeno in esaurimento!
 
 #March?
 Expansive. Constant rain.=Pioggia costante e intensa.
 Expansive.=Vasto.
+Diverse=Varia
 \nConstant rain=Pioggia perpetua
 
 # 71-Gordion
 Unknown=Ignoto
-No land masses. Continual storms.=Nessuna terra emersa.\nTempeste continue.
-Unknown\nWhere the Company resides.\n=Ignota\nQui risiede la Compagnia.\n
-
-## Dine Rend & March aren't captured by the regex for some reason, trying bruteforce approach:
-# Rend
-Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\n=ORBITANDO: 85 Rend\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\n
-Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Eclipsed\n=ORBITANDO: 85 Rend\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Eclissato\n
-Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Flooded\n=ORBITANDO: 85 Rend\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Allagato\n
-Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Foggy\n=ORBITANDO: 85 Rend\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Nebbioso\n
-Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Rainy\n=ORBITANDO: 85 Rend\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Piovoso\n
-Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Stormy\n=ORBITANDO: 85 Rend\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Temporalesco\n
-POPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist=POPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa
-
-# March
-Orbiting: 61 March\nPOPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse\n=ORBITANDO: 61 March\nPOPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia\n
-Orbiting: 61 March\nPOPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse\nWeather: Eclipsed \n=ORBITANDO: 61 March\nPOPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia\nMETEO: Eclissato \n
-Orbiting: 61 March\nPOPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse\nWeather: Flooded \n=ORBITANDO: 61 March\nPOPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia\nMETEO: Allagato \n
-Orbiting: 61 March\nPOPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse\nWeather: Foggy \n=ORBITANDO: 61 March\nPOPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia\nMETEO: Nebbioso \n
-Orbiting: 61 March\nPOPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse\nWeather: Rainy \n=ORBITANDO: 61 March\nPOPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia\nMETEO: Piovoso \n
-Orbiting: 61 March\nPOPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse\nWeather: Stormy \n=ORBITANDO: 61 March\nPOPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia\nMETEO: Temporalesco \n
-POPULATION: Abandoned\nCONDITIONS: Expansive. Constant rain.\nFAUNA: Diverse=POPOLAZIONE: Abbandonato\nCONDIZIONI: Vasto territorio. Pioggia intensa.\nFAUNA: Varia
-
-# Dine
-Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\n=ORBITANDO: 7 Dine\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\n
-Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Eclipsed\n=ORBITANDO: 7 Dine\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Eclissato\n
-Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Flooded\n=ORBITANDO: 7 Dine\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Allagato\n
-Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Foggy\n=ORBITANDO: 7 Dine\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Nebbioso\n
-Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Rainy\n=ORBITANDO: 7 Dine\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Piovoso\n
-Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Stormy\n=ORBITANDO: 7 Dine\nPOPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\nMETEO: Temporalesco\n
-POPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\n=POPOLAZIONE: Assente\nCONDIZIONI: Congelato, roccioso. Orbita una stella nana bianca.\nFAUNA: Improbabile esistenza di vita complessa\n
+No land masses. Continual storms.=Nessuna terra emersa. Tempeste continue.
+Unknown\nWhere the Company resides.\n=Ignota\nQui risiede la Compagnia.
+Where the Company resides.=Qui risiede la Compagnia.
 
 # Regex dei pianeti
-#sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)(\n)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4$5$6
-#sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4\nMETEO：$5
-#sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNA: ([\s\S]+)(\s)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4$5$6
-#sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNA: ([\s\S]+)\sWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCLIMA： $3\nFAUNA： $4\nMETEO：$5
-#sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)$"=POPOLAZIONE：$1\nCLIMA：$2\nFAUNA：$3\n$4
-#sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE：$1\nCLIMA：$2\nFAUNA：$3
-
 sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)(\n)?([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4$5$6
-
-sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4\nMETEO： $5
-
-sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWEATHER: ([\s\S]+)$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4\nMETEO： $5
+sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+) \nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3 \nFAUNA： $4\nMETEO： $5
+sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)?$"=ORBITANDO： $1\nPOPOLAZIONE： $2\nCONDIZIONI： $3\nFAUNA： $4\nMETEO： $5
 
 sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3
-
 sr:"^POPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\n([\s\S]+)?$"=POPOLAZIONE： $1\nCONDIZIONI： $2\nFAUNA： $3\n$4
-
 sr:"^CELESTIAL BODY: ([\s\S]+)$"=PIANETA: $1
+
+# Weekly Challenge Moons
+
+AS MUCH PROFIT AS POSSIBLE=IL PIÙ POSSIBILE
+r:"Welcome to([\s\S]+)"=Benvenuti a $1

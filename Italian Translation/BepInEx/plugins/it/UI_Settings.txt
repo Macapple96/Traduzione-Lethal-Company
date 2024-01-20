@@ -34,6 +34,7 @@ Push to talk:=Premi per parlare:
 BACK=> Torna al menù.
 
 #Sezione keybinds
+Keyboard/Mouse=Mouse e Tastiera
 REMAP CONTROLS=CONTROLLI
 Push to talk=Premi per parlare
 Walk forward=Cammina avanti 
@@ -45,11 +46,11 @@ Sprint=Corri
 Crouch=Accovacciati
 Interact=Interagisci
 Ping scan=Scansiona
-Item primary use= Usa oggetto
+Item Primary use= Usa oggetto
 Item Secondary use= Uso secondario
 Item Tertiary use= Uso terziario
 Item drop=Butta oggetto
-Item switch left=Cambia ogg: Sx.
+Item switch left=Cambia ogg. Sx.
 Item switch right=Cambia ogg. Dx.
 Item inspect=Ispeziona
 Replace furniture=Sposta i mobili
