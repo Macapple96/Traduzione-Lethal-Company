@@ -1,5 +1,6 @@
 ﻿#Versione
 r:"^v([0-9]+)$"=v$1<color\=#AA0500><size\=8>  (Traduzione a cura di:<color\=#A0CAA0> Maca, Mavri, Makinday</color>)</size></color>
+
 r:"(^[\s\S]+)(\[MODDED\])$"=$1[MOD ATTIVE]\n<color\=#AA0500><size\=8>    (Traduzione   a   cura   di:  <color\=#A0CAA0> Maca, Mavri, Makinday</color>)</size></color>
 
 Adjust screen brightness until the symbol on the right is barely visible.=Regolare la luminosità dello schermo finché il simbolo a destra è a malapena visibile.
@@ -34,6 +35,7 @@ Would you like to leave the game?=Vuoi uscire?
 > Confirm=> Conferma
 > Cancel=> Annulla
 
+Name your server...=Nome del server...
 Server name:=Nome Server:
 Public=Pubblico
 PUBLIC means your game will be visible on the server list for all to see.=Pubblico: La tua partita sarà visibile a chiunque.

@@ -1,5 +1,10 @@
 # Changelog
 
+## Beta 0.12.1
+- Aggiunto alveare in `items.txt`
+- Aggiunto supporto per More Company, More & Better Emotes
+- Sistemate traduzioni di Lethal Progression. 
+
 ## Beta 0.12.0
 - Aggiunte nuove traduzioni
 - Forse è la volta buona che ho sistemato le traduzioni dei pianeti!

@@ -6,15 +6,18 @@ Notes: \n=Note: \n
 Notes:=Note:
 Most profitable=Impiegato più efficiente
 * Most profitable=* Impiegato più efficiente
-NEW PROFIT QUOTA:=NUOVA QUOTA:
-Paycheck!=Stipendio!
-QUOTA REACHED!=QUOTA RAGGIUNTA
 Sustained the most injuries.=Impiegato più malmesso.
 * Sustained the most injuries.=* Impiegato più malmesso.
-TO MEET PROFIT QUOTA=PER RAGGIUNGERE LA QUOTA
 The laziest employee.=Impiegato più pigro.
 * The laziest employee.=* Impiegato più pigro.
 The most paranoid employee.=Impiegato più paranoico.
 * The most paranoid employee.=* Impiegato più paranoico.
+sr:"^(?<pre_i>[\W]+?)(?<bonus>\* [\w\W]+)(?<end_i>[\s\S]+)?$"=${pre_i}${bonus}${end_i}
+NEW PROFIT QUOTA:=NUOVA QUOTA:
+Paycheck!=Stipendio!
+QUOTA REACHED!=QUOTA RAGGIUNTA
+
+TO MEET PROFIT QUOTA=PER RAGGIUNGERE LA QUOTA
+
 Tip=Consiglio
 You have 0 days left to meet the quota. Use the terminal to route to the company and sell.=Rimangono 0 giorni per raggiungere la quota. Usa il terminale per fare rotta verso la Compagnia e vendere.

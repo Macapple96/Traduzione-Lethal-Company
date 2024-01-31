@@ -11,6 +11,7 @@ New creature data sent to terminal!=Dati creatura inviati al terminale!
 PERFORMANCE REPORT=RAPPORTO
 PILOT COMPUTER=PILOTA AUTOMATICO
 SYSTEMS ONLINE=SISTEMI PRONTI
+Stats=Statistiche
 Ship leaving in one hour=La nave parte tra un'ora.
 The Company must minimize risk of damage to proprietary hardware. Goodbye!=La compagnia deve ridurre la possibilità di danni alla propria strumentazione.\nAddio!
 The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=Il pilota automatico porterà la nave allo spazioporto sicuro più vicino.\nGli oggetti sono andati perduti.

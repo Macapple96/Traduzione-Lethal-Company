@@ -1,3 +1,28 @@
+#[MoreCompany]
+Crew Size:=Dimensioni Equipaggio\n 
+Cosmetics Enabled:=Cosmetici Attivi:
+r:"^v([\d]+) \(MC\)$"=v$1\n[MC]<color\=#AA0500><size\=8>    (Traduzione   a   cura   di:  <color\=#A0CAA0> Maca, Mavri, Makinday</color>)</size></color>
+
+#[BetterEmotes]
+r:"^Line Break ([\s\S]*?)$"=A capo $1
+r:"^CHARACTERS LEFT: ([\s\S]*?)$"=CARATTERI RIMASTI: $1
+r:"^([\s\S]*?) Submit$"=$1 Conferma
+r:"^([\s\S]*?) Cancel$"=$1 Annulla
+r:"^\[([\s\S]*)?\]: Open Emote Radial Menu$"=[$1]: Apri Menu Emozioni
+r:"^Favorite Emote: \[([\s\S]*)?\]$"=Agg. ai Preferiti: [$1]
+
+r:"^All \[([\d]+)\]$"=Tutte [$1]
+r:"^Favorites \[([\d]+)\]$"=Preferite [$1]
+r:"^Complementary \[([\d]+)\]$"=Classiche [$1]
+r:"^([\s\S]*)Common([\s\S]*) \[([\d]+)\]$"=$1Comuni$2 [$3]
+r:"^([\s\S]*)Epic([\s\S]*) \[([\d]+)\]$"=$1Epiche$2 [$3]
+r:"^([\s\S]*)Legendary([\s\S]*) \[([\d]+)\]$"=$1Leggendarie$2 [$3]
+
+r:"^Page \[([\d]+) \/ ([\d]+)\]$"=Pagina [$1 / $2]
+
+Enter Text...=Scrivi qui...
+Swap Page: [Scroll Mouse]=Cambia Pagina: [Rotella Mouse]
+
 # [DiscountAlert]
 Today's discounts=-Sconti di oggi-
  Today's discounts= -Sconti di oggi-
@@ -28,6 +53,12 @@ Radar Next Cam=<color\=#f542a4>[FSPV]</color> Monitora successivo
 Next Command=<color\=#f542a4>[TH]</color> Comando successivo
 Previous Command=<color\=#f542a4>[TH]</color> Comando precedente
 
+# [TooManyEmotes]
+[TooManyEmotes]\nOpen Emote Menu=<color\=#f542a4>[TME]</color> Apri Menu Emote
+[TooManyEmotes]\nRotate Character in Emote=<color\=#f542a4>[TME]</color> Ruota Personaggio durante Emote
+[TooManyEmotes]\nFavorite Emote=<color\=#f542a4>[TME]</color> Aggiungi Emote ai Preferiti
+r:"^Hold \[([\s\S]*?)\] : Rotate$"=Tieni [$1] : Ruota
+
 # [Minimap]
 r:"^LOCKED: ([\s\S]+)$"=BLOCCATO SU: $1
 
@@ -36,6 +67,9 @@ New File=Nuovo Salv.
 
 # [IntroTweaks?]
 r:"^> Show Legacy Controls \((\d+) present\)$"=> Altri controlli ($1 rilevati) 
+Remove bind=Rimuovi tasto
+Reset to default=Ripristina predefinito
+
 
 #[Lethal Progression]
 > Skills= > Abilità
@@ -52,8 +86,9 @@ Level up to earn more skill points. You can level up by picking scrap and killin
 HPR:=RIG:
 STM:=VIG:
 HND:=INV:
+OXY:=OSS:
 
-r:"\(\+(\d+)\% Health Regeneration\)"=(+$1% Rigenerazione)
+r:"\(\+([\d]*[\,]?[\d]*?)\% Health Regeneration\)"=(+$1% Rigenerazione)
 Health Regen=Rigenerazione Salute
 The company installs a basic healer into your suit, letting you regenerate health slowly. Only regenerate up to 100 HP.=La Compagnia installa un modulo curativo nella tuta, permettendo un lento recupero della salute.\nPuoi rigenerarti fino a 100 PV.
 
@@ -69,6 +104,10 @@ r:"\(\+(\d+)\% Hand Slots\)"=(+$1% Inventario)
 Hand Slot=Inventario
 The company finally gives you a better belt! Fit more stuff! (Reach 100% for one slot.)=La Compagnia ti concede una cintura migliore! Puoi prendere più roba! (Uno slot aggiuntivo ogni 100%)
 
-r:"\(\+(\d+)\% Loot Value\)"=(+$1% Valore Rottami)
+r:"\(\+([\d]*[\,]?[\d]*?)\% Loot Value\)"=(+$1% Valore Rottami)
 Loot Value=Valore Rottami
 The company gives you a better pair of eyes, allowing you to see the value in things.=La Compagnia ti grazia con degli occhi migliori, permettendoti di percepire meglio il valore delle cose.
+
+r:"\(\+([\d]*[\,]?[\d]*?)\% Extra Oxygen\)"=(+$1% Ossigeno Extra)
+Oxygen=Ossigeno
+The company installs you with oxygen tanks. You gain extra time in the water. (Start drowning when the bar is empty.)=La Compagnia ti installa delle bombole di ossigeno. Puoi restare più a lungo in acqua.(Inizi ad affogare quando la barra si svuota.)
