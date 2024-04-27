@@ -1,2 +1,9 @@
 ﻿
  None :( \n Check back tomorrow!= Nessuno :( Torna domani!
+Diverse\n=Varia\n
+[TooManyEmotes]\nOpen Emote Menu=<color\=#f542a4>[TME]</color> Apri Menu Emote
+ \nMetal sheet= \nLamiera
+ \nJar of pickles= \nBarattolo di cetriolini
+ \nLaser pointer= \nPuntatore laser
+12:00 \n AM=12:00
+ \nApparatus= \nReattore
